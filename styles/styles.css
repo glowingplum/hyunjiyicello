@@ -97,6 +97,7 @@ nav {
 /* Title section */
 #title {
   padding-top: 50px;
+  overflow-x: hidden;
 }
 
 .main-title {
@@ -303,7 +304,7 @@ footer i {
   }
 
   .title-text {
-    margin-top: 0;
+    margin-top: 50px;
   }
 
   .tell-me-more {
@@ -317,11 +318,24 @@ footer i {
     text-align: center;
   }
 
+  .main-title {
+    font-size: 5rem;
+  }
+
+  .title-text {
+    margin-top: 20px;
+  }
+
   .title-image {
-    top: 0;
+    top: 20px;
+  }
+
+  .title-line {
+    width: 200px;
   }
 
   .tell-me-more {
     text-align: left;
+    top: 450px;
   }
 }
