@@ -129,7 +129,6 @@ nav {
 .title-image {
   width: 80%;
   position: relative;
-  left: 20%;
   top: 50px;
   z-index: 1;
 }
@@ -304,7 +303,7 @@ footer i {
   }
 
   .title-text {
-    margin-top: 70px;
+    margin-top: 0;
   }
 
   .tell-me-more {
@@ -316,8 +315,6 @@ footer i {
 @media (max-width: 575.98px) {
   body {
     text-align: center;
-    overflow-x: hidden;
-    position: relative;
   }
 
   .title-image {
