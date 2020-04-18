@@ -28,7 +28,7 @@
 <body>
 
   <!-- Title -->
-  <section class="title pink-background">
+  <section class="pink-background" id="title">
     <div class="container-xl">
 
       <!-- navbar -->
@@ -43,10 +43,22 @@
               <a class="nav-link " href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Media Gallery</a>
+              <a class="nav-link " href="lessons.html">Lessons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </div>
       </nav>
@@ -57,11 +69,11 @@
         <div class="col-lg-1">
           <div class="title-text">
             <p class="cellist">Cellist</p>
-            <h1>Hyunji Yi</h1>
+            <h1 class="main-title">Hyunji Yi</h1>
           </div>
         </div>
 
-        <div class="col-lg-11 title-image-container">
+        <div class="col-lg-11 title-image-container-fluid">
           <img class="title-image" src="images/main-img.png" alt="Profile picture of Cellist Hyunji Yi">
         </div>
 
@@ -76,12 +88,13 @@
   </section>
 
   <!-- About -->
-  <section class="about">
-    <div class="container">
+  <section id="about" class="pattern-background">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 meet">
-          <h2>Meet Hyunji</h2>
-          <p class="meet-text">A native of Seoul, South Korea, Los Angeles based cellist Hyunji Evonne Yi is an active performer and music educator. As a recitalist, chamber musician and orchestral musician, she has appeared in concert venues across
+        <div class="col-lg-12">
+          <h2 class="subtitle">Meet Hyunji</h2>
+          <p class="bigger-text">A native of Seoul, South Korea, Los Angeles based cellist Hyunji Evonne Yi is an active performer and music educator. As a recitalist, chamber musician and orchestral musician, she has appeared in concert venues
+            across
             the United States,
             Germany and Korea. <a href="about.html">Read more</a></p>
         </div>
@@ -89,29 +102,28 @@
     </div>
   </section>
 
-
   <!-- services -->
-  <section class="services yellow-background">
-    <h2 class="what-she-does">What She Does</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
+  <section class="yellow-background" id="services">
+    <div class="container-xl">
+      <h2 class="subtitle">What She Does</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="service">
-            <img src="images/services.png" alt="" class="services-image">
+            <img src="images/service1.jpg" alt="" class="services-image">
             <h4 class="service-text">Recording Sessions</h4>
             <p>For musicians, for dfjd, dff adfff</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="service">
-            <img src="images/services.png" alt="" class="services-image">
+            <img src="images/service2.jpg" alt="" class="services-image">
             <h4 class="service-text">Private Events</h4>
             <p>Weddings, corporate events and more</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="service">
-            <img src="images/services.png" alt="" class="services-image">
+            <img src="images/service3.jpg" alt="" class="services-image">
             <h4 class="service-text">Cello Lessons</h4>
             <p>In private or group formats</p>
           </div>
@@ -120,14 +132,15 @@
     </div>
   </section>
 
-  <div class="row">
-    <div class="col simple-quote-section">
-      <p class="simple-quote-text">Practice doesn't make perfect.<br>Practice makes permanent. It is how you practice that matters.</p>
+  <section id="quote">
+    <div class="container-fluid">
+      <em><i class="quotes-left fas fa-quote-left"></i></em>
+      <h4 class="quote-text">Practice doesn't make perfect.<br>Practice makes permanent. It is how you practice that matters.</h4>
+      <em class="blue">-Hyunji</em>
     </div>
-  </div>
+  </section>
 
-  <section class="press blue-background">
-
+  <section class="yellow-background" id="press">
     <div id="press-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -148,31 +161,40 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
   </section>
 
-  <section class="contact-me-section">
-    <div class="row">
-      <div class="col">
-        <h3 class="keep-in-touch">Keep in touch with Hyunji</h3>
-        <p>Please use the button below to send her a message</p>
-        <button class="btn btn-lg contact-button" type="button">Contact Me</button>
-      </div>
-    </div>
-  </section>
 
 
 
 
   <!-- footer -->
-  <footer class="footer">
-    <i class="footer-icons fab fa-instagram"></i>
-    <i class="footer-icons fas fa-envelope"></i>
-    <i class="footer-icons fab fa-facebook-f"></i>
-    <i class="footer-icons fab fa-youtube"></i>
-    <i class="footer-icons fab fa-linkedin-in"></i>
-    <i class="footer-icons fab fa-soundcloud"></i>
-    <p class="copyright">© Copyright 2020 Hyunji Yi</p>
+  <footer class="pink-background">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="keep-in-touch">Keep in touch</h3>
+        <p>Contact Hyunji through email</p>
+        <button href="" class="btn btn-lg btn-outline contact-button" type="button">Contact</button>
+      </div>
+    </div>
+    <div class="container-xl">
+      <div class="row">
+        <hr>
+        <div class="col">
+          <p class="text-nowrap"><a class="footer-main-logo" href="index.html">Hyunji Yi</a></p>
+        </div>
+        <div class="col-sm-auto">
+          <a target="_blank" class="footer-icons" href="https://www.linkedin.com/in/hyunji-evonne-yi-165ba6122/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" class="footer-icons" href="https://www.instagram.com/hyunjiyi_cello/"><i class="fab fa-instagram" onclick="href"></i></a>
+          <a target="_blank" class="footer-icons" href="https://www.facebook.com/profile.php?id=752405183"><i class="fab fa-facebook-f"></i></a>
+          <a target="_blank" class="footer-icons" href="https://www.youtube.com/channel/UCswekp1WtcbhUylAAODo82g"><i class="fab fa-youtube"></i></a>
+          <a target="_blank" class="footer-icons" href="https://soundcloud.com/user-797972275"><i class="fab fa-soundcloud"></i></a>
+        </div>
+        <div class="col-sm-auto">
+          <p class="copyright">© Copyright 2020 Hyunji Yi</p>
+        </div>
+      </div>
+    </div>
+
   </footer>
 
 </body>
