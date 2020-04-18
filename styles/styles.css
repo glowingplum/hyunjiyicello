@@ -2,8 +2,6 @@ body {
   font-family: 'Playfair Display', serif;
   font-family: 'Raleway', sans-serif;
   line-height: 2;
-  overflow-x: hidden;
-  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6, em {
@@ -30,7 +28,7 @@ hr {
   padding: 12% 18%;
 }
 
-.page-bottom{
+.page-bottom {
   padding-bottom: 100px;
 }
 
@@ -51,7 +49,6 @@ hr {
   background-color: #a6d0e4;
 }
 
-
 /* text colors */
 .pink {
   color: #d4a5a5;
@@ -68,10 +65,10 @@ hr {
 .blue {
   color: #a6d0e4;
 }
-.white{
+
+.white {
   color: #fff;
 }
-
 
 .pattern-background {
   background-image: url(../images/dot-grid.png);
@@ -263,7 +260,7 @@ footer {
   color: white;
 }
 
-footer i{
+footer i {
   margin: 20px 10px 0;
 }
 
@@ -300,9 +297,6 @@ footer i{
 }
 
 /* Music page */
-
-
-
 /* Responsive breakpoints */
 @media (max-width: 767.98px) {
   .main-title {
@@ -322,11 +316,15 @@ footer i{
 @media (max-width: 575.98px) {
   body {
     text-align: center;
+    overflow-x: hidden;
+    position: relative;
   }
-  .title-image{
-    top:25px;
+
+  .title-image {
+    top: 0;
   }
-  .tell-me-more{
+
+  .tell-me-more {
     text-align: left;
   }
 }
