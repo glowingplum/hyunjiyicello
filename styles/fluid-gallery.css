@@ -1,9 +1,4 @@
-/* body {
-    background-color: #434c50;
-    min-height: 100vh;
-    font: normal 16px sans-serif;
-    padding: 40px 0;
-} */
+
 .container .gallery-container {
   min-height: 100vh;
 }
@@ -40,7 +35,7 @@
   color: #fff;
   font-size: 26px;
   font-family: 'Glyphicons Halflings';
-  content: '\e003';
+  content:'\e003';
   pointer-events: none;
   z-index: 9000;
   transition: 0.4s;
@@ -54,7 +49,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: #d4a5a5;
+  background-color: #ffecda;
   content: '';
   transition: 0.4s;
 }
